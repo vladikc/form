@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Form</title>
+</head>
+<body>
+  <header>
+    <div class="name">
+      Jeremy Anderson
+    </div>
+    <div class="links">
+      <span>
+        <a href="#">Home</a>
+      </span>
+      <span>
+        <a href="myjobs.html">My Jobs</a>
+      </span>
+      <span>
+        <a href="about.html">About Me</a>
+      </span>
+    </div>
+  </header>
+  <div class="sidebar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="myjobs.html">My Jobs</a></li>
+      <li><a href="about.html">About Me</a></li>
+    </ul>
+  </div>
+  <div class="main">
+  <form method ="post" action = "http://fvi-grad.com:4004/email" >
+    <!-- <label for="dest-email" >Send to</label> -->
+  <input type ="text" name=" dest-email" placeholder="Send to...." >
+  <input type="text" name = "full-name" placeholder="Full name" >
+  <input type="text" name = "Phone number" placeholder="Phone number" >
+  <input type="text" name = "Delivery date" placeholder="Delivery date" >
+  <input type="text" name = "time" placeholder="time" >
+  <input type="text" name = "Senders Email" placeholder="vladikc91@gmail.co" >
+  <input type="text" name = "Subject" placeholder="Subject" >
+
+  <textarea name="message" cols="30" rows ="10"> Enter message here</textarea>
+
+<input type="submit" value="submit">
+  </form >
+ 
+  <footer>My name is Jeremy Anderson and I teach this class</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
